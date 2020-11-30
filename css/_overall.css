@@ -15,3 +15,12 @@
     line-height: 65px;
     color: #333333;
 }
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+select {
+    cursor: pointer;
+}
