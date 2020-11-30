@@ -1,0 +1,14 @@
+.section-about__title {
+    margin-top: 80px;
+}
+
+.section-about__text {
+    margin-top: 15px;
+    margin-bottom: 70px;
+    max-width: 66%;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+}

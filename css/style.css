@@ -1,0 +1,13 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_veriables.css";
+@import "_global.css";
+@import "_vendor.css";
+@import "_overall.css";
+
+/* components import */
+
+@import "../css/components/header.css";
+@import "../css/components/section-hiro.css";
+@import "../css/components/section-about.css";
+@import "../css/components/section-gallery.css"

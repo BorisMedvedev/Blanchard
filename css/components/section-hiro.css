@@ -1,0 +1,36 @@
+.section-hiro {
+    color: #FFFFFF;
+    background-image: url(../../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-hiro__title {
+    padding-top: 242px;
+    font-weight: 800;
+    max-width: 36%;
+    font-size: 72px;
+    line-height: 84px;
+}
+
+.section-hiro__text {
+    margin-top: 17px;
+    max-width: 37%;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.button-subscription {
+    margin-top: 92px;
+    margin-bottom: 122px;
+    padding: 22.5px 35px;
+    background: var(--akcent-color);
+    border-radius: 100px;
+    border: none;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
