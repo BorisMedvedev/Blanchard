@@ -11,6 +11,7 @@
 }
 
 .header-top__wrapper {
+    justify-content: space-between;
     display: flex;
     align-items: center;
     padding-top: 28px;
