@@ -16,7 +16,7 @@
 
 .section-hiro__text {
     margin-top: 17px;
-    max-width: 37%;
+    max-width: 35%;
     font-weight: 800;
     font-size: 18px;
     line-height: 30px;
@@ -24,7 +24,7 @@
 
 .button-subscription {
     margin-top: 92px;
-    margin-bottom: 122px;
+    margin-bottom: 119px;
     padding: 22.5px 35px;
     background: var(--akcent-color);
     border-radius: 100px;
