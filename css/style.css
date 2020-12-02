@@ -11,3 +11,6 @@
 @import "../css/components/section-hiro.css";
 @import "../css/components/section-about.css";
 @import "../css/components/section-gallery.css";
+
+/* скрываем выпадающие списки по умолчанию
+			 * и задаем абсолютное позиционирование ================*/
