@@ -15,5 +15,10 @@ body {
     font-size: 16px;
 }
 
+button {
+    border: none;
+    cursor: pointer;
+}
+
 
 /*====================*/
