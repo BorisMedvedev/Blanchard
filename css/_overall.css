@@ -1,11 +1,11 @@
+.site-container {
+    overflow: hidden;
+}
+
 .container {
     max-width: 1663px;
     width: 100%;
     margin: 0 auto;
-}
-
-.site-container {
-    overflow: hidden;
 }
 
 body {
