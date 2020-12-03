@@ -8,9 +8,6 @@
 /* components import */
 
 @import "../css/components/header.css";
-@import "../css/components/section-hiro.css";
-@import "../css/components/section-about.css";
-@import "../css/components/section-gallery.css";
-
-/* скрываем выпадающие списки по умолчанию
-			 * и задаем абсолютное позиционирование ================*/
+@import "../css/components/hiro.css";
+@import "../css/components/about.css";
+@import "../css/components/gallery.css";
