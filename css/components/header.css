@@ -59,11 +59,20 @@
     color: #FFFFFF;
 }
 
-.header-botton-menu__list {
-    display: none;
+.header-botton-menu__title>a {
+    color: #fff;
+}
+
+.header-botton-menu__title>a:hover {
+    color: #000;
 }
 
 .header-botton-menu__item {
+    width: 220px;
+    height: 40px;
+    outline: 2px solid red;
+    margin: 0 auto;
+    margin-bottom: 30px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -71,12 +80,24 @@
 }
 
 .header-botton-menu__title {
+    position: relative;
     margin-right: 72px;
     line-height: 70px;
 }
 
-.header-botton-menu__title::after {
-    content: "";
+.header-botton-menu__list {
+    width: 300px;
+    height: 300px;
+    outline: 2px solid red;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    position: absolute;
+    top: 70px;
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.header-botton-menu__title:hover .header-botton-menu__list {
     display: block;
-    background-image: url();
+    transition: all 0.3s ease;
 }
