@@ -95,12 +95,13 @@
 .header-botton-menu__span {}
 
 .header-botton-menu__list {
+    padding: 40px;
     width: 300px;
     height: 300px;
     outline: 2px solid red;
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
-    position: absolute;
+    z-index: 100;
     top: 70px;
     display: none;
     transition: all 0.3s ease;
