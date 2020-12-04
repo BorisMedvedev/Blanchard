@@ -82,7 +82,6 @@
         line-height: 19px;
         /* identical to box height */
         color: #FFFFFF;
-        text-align: center;
     }
 
     .header-bottom-menu__title>a:hover {
@@ -100,7 +99,6 @@
         color: #FFFFFF;
         display: flex;
         align-items: center;
-        justify-content: center;
     }
 
     .header-bottom-menu__title {
@@ -171,6 +169,7 @@
 
     .header-bottom-menu__item>a {
         position: absolute;
+        padding-left: 14px;
     }
 
     .header-bottom-menu__item>a:hover {
