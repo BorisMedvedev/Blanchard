@@ -1,3 +1,10 @@
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
 .header-top-container {
     display: flex;
     align-items: center;
@@ -72,7 +79,7 @@
     height: 40px;
     outline: 2px solid red;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -81,9 +88,11 @@
 
 .header-botton-menu__title {
     position: relative;
-    margin-right: 72px;
+    margin-right: 99px;
     line-height: 70px;
 }
+
+.header-botton-menu__span {}
 
 .header-botton-menu__list {
     width: 300px;

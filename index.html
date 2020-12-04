@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blanchard</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -61,7 +66,11 @@
                 <div class="container header-botton-container">
                     <nav class="header-botton-menu">
                         <ul>
-                            <li class="header-botton-menu__title"><a href="#">Реализм</a>
+                            <li class="header-botton-menu__title"><a href="#">Реализм <span class="header-botton-menu__span"><svg
+											width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M11 5L6 10L0.999997 5" stroke="white" />
+										</svg>
+									</span></a>
                                 <ul class="header-botton-menu__list">
                                     <li class="header-botton-menu__item"><a class="header-botton-menu__linck" href="#">Тинторетто</a></li>
                                     <li class="header-botton-menu__item"><a class="header-botton-menu__linck" href="#">Фридрих</a></li>
@@ -69,7 +78,11 @@
                                     <li class="header-botton-menu__item"><a class="header-botton-menu__linck" href="#">Верроккьо</a></li>
                                 </ul>
                             </li>
-                            <li class="header-botton-menu__title"><a href="#">Импрессионизм</a>
+                            <li class="header-botton-menu__title"><a href="#">Импрессионизм<span class="header-botton-menu__span"><svg
+											width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M11 5L6 10L0.999997 5" stroke="white" />
+										</svg>
+									</span></a>
                                 <ul class="header-botton-menu__list">
                                     <li class="header-botton-menu__item">
                                         <a class="header-botton-menu__linck" href="#">Тинторетто</a>
@@ -85,7 +98,12 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="header-botton-menu__title"><a href="#">Постимпрессионизм</a>
+                            <li class="header-botton-menu__title"><a href="#">Постимпрессионизм<span
+										class="header-botton-menu__span"><svg width="12" height="11" viewBox="0 0 12 11" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M11 5L6 10L0.999997 5" stroke="white" />
+										</svg>
+									</span></a>
                                 <ul class="header-botton-menu__list">
                                     <li class="header-botton-menu__item">
                                         <a class="header-botton-menu__linck" href="#">Тинторетто</a>
@@ -101,7 +119,11 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="header-botton-menu__title"><a href="#">Авангард</a>
+                            <li class="header-botton-menu__title"><a href="#">Авангард<span class="header-botton-menu__span"><svg
+											width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M11 5L6 10L0.999997 5" stroke="white" />
+										</svg>
+									</span></a>
                                 <ul class="header-botton-menu__list">
                                     <li class="header-botton-menu__item">
                                         <a class="header-botton-menu__linck" href="#">Тинторетто</a>
@@ -117,7 +139,11 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="header-botton-menu__title"><a href="#">Футуризм</a>
+                            <li class="header-botton-menu__title"><a href="#">Футуризм<span class="header-botton-menu__span"><svg
+											width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M11 5L6 10L0.999997 5" stroke="white" />
+										</svg>
+									</span></a>
                                 <ul class="header-botton-menu__list">
                                     <li class="header-botton-menu__item">
                                         <a class="header-botton-menu__linck" href="#">Тинторетто</a>
@@ -137,6 +163,73 @@
                     </nav>
 
                 </div>
+                <main>
+                    <section class="section-hero">
+                        <div class="container wrapper-hero">
+                            <!--<div class="hero-container">-->
+
+                            <!-- <div class="section-hero-btn-slaider">
+									                        <button aria-label="далее" href="#" class="section-hero-btn-slaider1"></button>
+									                        <button aria-label="далее" href="#" class="section-hero-btn-slaider1"></button>
+									                        <button aria-label="далее" href="#" class="section-hero-btn-slaider1"></button>
+									                    </div>-->
+                            <!-- Slider main container -->
+                            <div class="swiper-container">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide slide1">
+                                        <div class="hero-container-wrap">
+                                            <h1 class="section-hero-title">
+                                                Проектные решения любой сложности
+                                            </h1>
+                                            <p class="section-hero-discription">
+                                                Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
+                                            </p>
+                                            <button aria-label="заказать расчет" href="#" class="btn section-hero-btn">Заказать
+												расчёт</button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide2">
+                                        <div class="hero-container-wrap">
+                                            <h1 class="section-hero-title">
+                                                Проектные решения любой сложности
+                                            </h1>
+                                            <p class="section-hero-discription">
+                                                Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
+                                            </p>
+                                            <button aria-label="заказать расчет" href="#" class="btn section-hero-btn">Заказать
+												расчёт</button>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide slide3">
+                                        <div class="hero-container-wrap">
+                                            <h1 class="section-hero-title">
+                                                Проектные решения любой сложности
+                                            </h1>
+                                            <p class="section-hero-discription">
+                                                Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
+                                            </p>
+                                            <button aria-label="заказать расчет" href="#" class="btn section-hero-btn">Заказать
+												расчёт</button>
+                                        </div>
+                                    </div>
+                                    ...
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+
+                                <!-- If we need scrollbar -->
+
+                            </div>
+                        </div>
+
+                    </section>
+                </main>
 
 
 
@@ -155,7 +248,39 @@
 
     </div>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            speed: 300,
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: false,
+            },
 
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+
+        })
+    </script>
+    <script>
+        $(function() {
+            $("#accordion").accordion({
+                collapsible: true
+            });
+        });
+    </script>
 </body>
 
 </html>

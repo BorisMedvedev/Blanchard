@@ -1,9 +1,9 @@
-@import "_normalize.css";
-@import "_fonts.css";
-@import "_veriables.css";
-@import "_global.css";
-@import "_vendor.css";
-@import "_overall.css";
+@import "normalize.css";
+@import "fonts.css";
+@import "veriables.css";
+@import "global.css";
+@import "vendor.css";
+@import "overall.css";
 
 /* components import */
 
