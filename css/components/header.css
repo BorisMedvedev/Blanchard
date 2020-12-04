@@ -1,8 +1,6 @@
 .header {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
+    position: relative;
+    z-index: 999;
 }
 
 .header-top-container {
@@ -19,6 +17,13 @@
 
 .header-top-menu {
     margin-right: 33px;
+}
+
+.header-top-linck:hover {
+    transition-duration: 50ms;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+    color: var(--color-hover);
 }
 
 .header-top-list {
@@ -41,6 +46,13 @@
     margin-right: 67px;
 }
 
+.header-top-btn:hover svg path {
+    fill: var(--color-hover);
+    transition-duration: 50ms;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
 
 /*=========header-bottom*/
 
@@ -59,19 +71,27 @@
     display: flex;
 }
 
-.header-bottom-menu ul li>a {
+.header-bottom-menu__title>a {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
 }
 
-.header-bottom-menu__title>a {
-    color: #fff;
+.header-bottom-menu__item>a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .header-bottom-menu__title>a:hover {
-    color: #000;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+    color: var(--color-hover);
 }
 
 .header-bottom-menu__item {
@@ -80,10 +100,10 @@
     outline: 2px solid red;
     margin: 0 auto;
     margin-bottom: 20px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-bottom-menu__title {
@@ -92,22 +112,50 @@
     line-height: 70px;
 }
 
-.header-bottom-menu__span {}
+.header-bottom-menu__span:hover svg path {
+    stroke: var(--color-hover);
+    transition-duration: 50ms;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+.header-bottom-menu__span:hover svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+.header-bottom-menu__span svg {
+    margin-left: 5px;
+}
 
 .header-bottom-menu__list {
     padding: 40px;
     width: 300px;
     height: 300px;
-    outline: 2px solid red;
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
-    z-index: 100;
+    z-index: 50;
     top: 70px;
     display: none;
-    transition: all 0.3s ease;
 }
 
 .header-bottom-menu__title:hover .header-bottom-menu__list {
     display: block;
-    transition: all 0.3s ease;
+    transition-duration: 50ms;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+.header-bottom-menu__list ul li>a {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header-bottom-menu__item>a:hover {
+    transition-duration: 50ms;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+    color: var(--color-hover);
 }
