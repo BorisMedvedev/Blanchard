@@ -33,7 +33,6 @@
     font-weight: 600;
     font-size: 72px;
     line-height: 82px;
-    margin-left: -14px;
 }
 
 .hero-discription {
@@ -43,12 +42,10 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
-    margin-left: -8px;
 }
 
 .hero-btn {
-    width: 314px;
-    height: 70px;
+    padding: 22px 35px;
     background: #9D5CD0;
     border-radius: 100px;
     margin-top: 92px;
