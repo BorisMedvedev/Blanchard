@@ -42,39 +42,39 @@
 }
 
 
-/*=========header-botton*/
+/*=========header-bottom*/
 
-.header-botton {
+.header-bottom {
     height: 70px;
     align-items: center;
     background: rgba(0, 0, 0, 0.4);
 }
 
-.header-botton-container {
+.header-bottom-container {
     height: 70px;
     align-items: center;
 }
 
-.header-botton-menu>ul {
+.header-bottom-menu>ul {
     display: flex;
 }
 
-.header-botton-menu ul li>a {
+.header-bottom-menu ul li>a {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
 }
 
-.header-botton-menu__title>a {
+.header-bottom-menu__title>a {
     color: #fff;
 }
 
-.header-botton-menu__title>a:hover {
+.header-bottom-menu__title>a:hover {
     color: #000;
 }
 
-.header-botton-menu__item {
+.header-bottom-menu__item {
     width: 220px;
     height: 40px;
     outline: 2px solid red;
@@ -86,15 +86,15 @@
     color: #FFFFFF;
 }
 
-.header-botton-menu__title {
+.header-bottom-menu__title {
     position: relative;
     margin-right: 99px;
     line-height: 70px;
 }
 
-.header-botton-menu__span {}
+.header-bottom-menu__span {}
 
-.header-botton-menu__list {
+.header-bottom-menu__list {
     padding: 40px;
     width: 300px;
     height: 300px;
@@ -107,7 +107,7 @@
     transition: all 0.3s ease;
 }
 
-.header-botton-menu__title:hover .header-botton-menu__list {
+.header-bottom-menu__title:hover .header-bottom-menu__list {
     display: block;
     transition: all 0.3s ease;
 }
