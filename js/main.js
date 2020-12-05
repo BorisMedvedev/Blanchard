@@ -29,3 +29,15 @@ const choices = new Choices(element, {
 });
 
 /*==================swiper-container2========================*/
+new Swiper('.galleri-swiper__swiper', {
+    direction: 'horizontal',
+    loop: true,
+    speed: 300,
+    slidesPerView: 3,
+    slidesPerColumn: 2,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
+});
