@@ -1,6 +1,9 @@
 .header {
-    position: relative;
-    z-index: 999;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .header-bottom-container {
@@ -313,6 +316,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.header-bottom-menu__item:hover {
+    background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)), url(.jpg);
+    outline: 2px solid #D1A9F0;
+    position: relative;
+    z-index: 999;
+    transition-duration: 50ms;
+    transition-timing-function: linear;
+    transition-delay: 0.2s;
 }
 
 

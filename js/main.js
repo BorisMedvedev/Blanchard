@@ -6,7 +6,7 @@ var mySwiper = new Swiper('.swiper-container', {
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
-        clickable: false,
+        clickable: true,
     },
 
     // Navigation arrows
@@ -17,11 +17,15 @@ var mySwiper = new Swiper('.swiper-container', {
 
     // And if we need scrollbar
 
-})
-
-
-$(function() {
-    $("#accordion").accordion({
-        collapsible: true
-    });
 });
+
+
+
+/*select========================*/
+
+const element = document.querySelector('#selectCostom');
+const choices = new Choices(element, {
+    searchEnabled: false
+});
+
+/*==================swiper-container2========================*/

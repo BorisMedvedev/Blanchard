@@ -1,8 +1,7 @@
 .swiper-container {
     max-width: 100%;
-    z-index: -1;
-    position: absolute;
-    top: 100px;
+    z-index: 1;
+    cursor: pointer;
 }
 
 .swiper-slide {
@@ -27,7 +26,7 @@
 }
 
 .hero-title {
-    padding-top: 142px;
+    padding-top: 242px;
     width: 597px;
     color: var(--color-white);
     font-weight: 600;
@@ -53,7 +52,6 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
-    /* identical to box height */
     text-align: center;
     color: #FFFFFF;
 }
