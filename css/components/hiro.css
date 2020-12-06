@@ -44,6 +44,7 @@
 }
 
 .hero-btn {
+    outline: none;
     padding: 22px 35px;
     background: #9D5CD0;
     border-radius: 100px;
@@ -54,4 +55,16 @@
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.hero-btn:hover {
+    outline: none;
+    border: 3px solid #D1A9F0;
+    padding: 20px 33px;
+}
+
+.hero-btn:active {
+    outline: none;
+    border: 3px solid #7943A4;
+    padding: 20px 33px;
 }

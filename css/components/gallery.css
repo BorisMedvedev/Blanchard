@@ -116,3 +116,7 @@
             max-width: 1150px;
             height: 810px;
         }
+        
+        .swipper-img {
+            background: none;
+        }

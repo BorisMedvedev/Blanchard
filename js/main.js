@@ -33,9 +33,9 @@ new Swiper('.galleri-swiper__swiper', {
     direction: 'horizontal',
     loop: true,
     speed: 300,
-    slidesPerView: 3,
-    slidesPerColumn: 2,
-    spaceBetween: 30,
+    slidesPerView: 1,
+    slidesPerColumn: 3,
+    spaceBetween: 0,
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
