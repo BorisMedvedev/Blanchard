@@ -390,6 +390,10 @@
      border-bottom: 1px solid #C283F3;
  }
 
+ .header-bottom__search {
+     transform: translateY(5px);
+ }
+
  .header-bottom__search:hover svg path {
      fill: var(--color-hover);
      transition: .2s linear;
