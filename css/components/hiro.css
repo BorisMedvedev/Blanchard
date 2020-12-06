@@ -15,7 +15,7 @@
         opacity: 0;
     }
     11.11% {
-        opacity: 0.8;
+        opacity: 1;
         transform: scale(1.1);
     }
     22.22% {
@@ -94,11 +94,13 @@
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
+    transition: .2s linear;
 }
 
 .hero-btn:hover {
     outline: none;
     border: 3px solid #D1A9F0;
+    transition: .2s linear;
 }
 
 .hero-btn:active {

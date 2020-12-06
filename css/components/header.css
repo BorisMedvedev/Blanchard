@@ -31,16 +31,20 @@
      margin-right: 33px;
  }
 
- .header-top-linck:hover {
-     transition-delay: 0.2s;
+ .header-top-link {
+     color: #fff;
+     transition: .2s linear;
+ }
+
+ .header-top-link:hover {
      color: #C283F3;
  }
 
- .header-top-linck:active {
+ .header-top-link:active {
      color: var(--co lor-hover);
  }
 
- .header-top-lin ck:focus {
+ .header-top-link:focus {
      outline: 1px solid #7943A4;
  }
 
@@ -63,13 +67,12 @@
      height: 19px;
      margin-right: 67px;
      outline: none;
+     transition: .2s linear;
  }
 
  .header-top-btn:hover svg path {
      fill: var(--color-hover);
-     transition-duration: ;
-     transition-timing-function: linear;
-     transition-delay: 0.2s;
+     transition: .2s linear;
  }
 
  .header-top-btn:focus svg {
@@ -97,6 +100,15 @@
      font-size: 18px;
      line-height: 25px;
      color: #FFFFFF;
+     transition: .2s linear;
+ }
+
+ .header-bottom-menu__title>a:hover {
+     color: var(--color-hover);
+ }
+
+ .header-bottom-menu__title>a:focus {
+     outline: 1px solid var(--color-hover);
  }
 
  .header-bottom-menu__item>a {
@@ -104,17 +116,6 @@
      font-size: 14px;
      line-height: 19px;
      color: #FFFFFF;
- }
-
- .header-bottom-menu__title>a:hover {
-     transition-duration: 100ms;
-     transition-timing-function: linear;
-     transition-delay: 0.2s;
-     color: var(--color-hover);
- }
-
- .header-bottom-menu__title>a:focus {
-     outline: 1px solid var(--color-hover);
  }
 
  .header-bottom-menu__item {
@@ -134,28 +135,25 @@
      line-height: 70px;
  }
 
- .header-bottom-menu__linck {
+ .header-bottom-menu__link {
      position: absolute;
      padding-left: 14px;
-     font-size: 14px;
-     font-weight: 600;
-     transition-duration: ;
-     transition-timing-function: linear;
-     transition-delay: 0.2s;
+     transition: .2s linear;
+ }
+
+ .header-bottom-menu__link:hover {
+     color: var(--color-hover);
  }
 
  .header-bottom-menu__span:hover svg path {
      stroke: var(--color-hover);
-     transition-duration: ;
-     transition-timing-function: linear;
-     transition-delay: 0.2s;
+     transition: .2s linear;
  }
 
  .header-bottom-menu__span:hover svg {
      -webkit-transform: rotate(180deg);
      transform: rotate(180deg);
-     transition-timing-function: linear;
-     transition-delay: 0.2s;
+     transition: .2s linear;
  }
 
  .header-bottom-form:focus {
@@ -178,8 +176,7 @@
  .simplebar-scrollbar,
  .simplebar-visible {
      width: 2px;
-     max-height: 28px;
-     margin-top: 15px;
+     height: 28px;
      transform: translate3d(0px, 0px, 0px);
      display: block;
      background: rgb(255, 255, 255);
@@ -187,7 +184,7 @@
 
  .simplebar-track.simplebar-vertical {
      margin-right: 19px;
-     max-height: 220px;
+     height: 220px;
      top: 40px;
      width: 2px;
      background: rgb(0 0 0);
@@ -201,21 +198,10 @@
      z-index: 50;
      top: 0;
      display: none;
-     transition: all 0.2s linear;
  }
 
  .header-bottom-menu__title:hover .header-bottom-menu__list {
      display: block;
-     transition-duration: ;
-     transition-timing-function: linear;
-     transition-delay: 0.2s;
- }
-
- .header-bottom-menu__linck:hover {
-     color: var(--color-hover);
-     transition-duration: ;
-     transition-timing-function: linear;
-     transition-delay: 0.2s;
  }
 
  .header-bottom-menu__title:hover .header-simplebar {
@@ -373,7 +359,6 @@
      outline: 2px solid #D1A9F0;
      position: relative;
      z-index: 999;
-     transition-duration: ;
      transition-timing-function: linear;
      transition-delay: 0.2s;
  }
@@ -410,15 +395,11 @@
 
  .header-bottom__search:hover svg path {
      fill: var(--color-hover);
-     transition-duration: ;
-     transition-timing-function: linear;
-     transition-delay: 0.2s;
+     transition: .2s linear;
  }
 
  .header-bottom__search:hover svg rect {
      fill: var(--color-hover);
      stroke: var(--color-hover);
-     transition-duration: ;
-     transition-timing-function: linear;
-     transition-delay: 0.2s;
+     transition: .2s linear;
  }
