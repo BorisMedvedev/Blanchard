@@ -32,7 +32,7 @@
         }
         
         .header-top-linck:hover {
-            transition-duration: 50ms;
+            transition-duration: ;
             transition-timing-function: linear;
             transition-delay: 0.2s;
             color: #C283F3;
@@ -69,7 +69,7 @@
         
         .header-top-btn:hover svg path {
             fill: var(--color-hover);
-            transition-duration: 50ms;
+            transition-duration: ;
             transition-timing-function: linear;
             transition-delay: 0.2s;
         }
@@ -141,14 +141,14 @@
             padding-left: 14px;
             font-size: 14px;
             font-weight: 600;
-            transition-duration: 50ms;
+            transition-duration: ;
             transition-timing-function: linear;
             transition-delay: 0.2s;
         }
         
         .header-bottom-menu__span:hover svg path {
             stroke: var(--color-hover);
-            transition-duration: 50ms;
+            transition-duration: ;
             transition-timing-function: linear;
             transition-delay: 0.2s;
         }
@@ -208,14 +208,14 @@
         
         .header-bottom-menu__title:hover .header-bottom-menu__list {
             display: block;
-            transition-duration: 50ms;
+            transition-duration: ;
             transition-timing-function: linear;
             transition-delay: 0.2s;
         }
         
         .header-bottom-menu__linck:hover {
             color: var(--color-hover);
-            transition-duration: 50ms;
+            transition-duration: ;
             transition-timing-function: linear;
             transition-delay: 0.2s;
         }
@@ -375,7 +375,7 @@
             outline: 2px solid #D1A9F0;
             position: relative;
             z-index: 999;
-            transition-duration: 50ms;
+            transition-duration: ;
             transition-timing-function: linear;
             transition-delay: 0.2s;
         }
@@ -412,7 +412,7 @@
         
         .header-bottom__search:hover svg path {
             fill: var(--color-hover);
-            transition-duration: 50ms;
+            transition-duration: ;
             transition-timing-function: linear;
             transition-delay: 0.2s;
         }
@@ -420,7 +420,7 @@
         .header-bottom__search:hover svg rect {
             fill: var(--color-hover);
             stroke: var(--color-hover);
-            transition-duration: 50ms;
+            transition-duration: ;
             transition-timing-function: linear;
             transition-delay: 0.2s;
         }
