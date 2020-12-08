@@ -4,27 +4,22 @@
 
 .container {
     max-width: 1663px;
+    padding: 0 30px;
     width: 100%;
     margin: 0 auto;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     font-weight: 400;
     font-size: 16px;
 }
 
-button {
+.btn-reset {
     background: none;
     border: none;
     cursor: pointer;
-}
-
-.titleh2 {
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 65px;
 }
 
 

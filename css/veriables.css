@@ -1,12 +1,10 @@
 :root {
-    --color-akcent: #9D5CD0;
+    --color-akcent: #9d5cd0;
+    --color-hover: #c283f3;
+    --color-activ: #7943a4;
     --color-white: #fff;
     --color-black: #000;
-    --color-hover: #9D5CD0;
-    --color-click: #7943A4;
 }
 
 
 /*=============*/
-
-C283F3
