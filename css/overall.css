@@ -3,7 +3,8 @@
 }
 
 .container {
-    max-width: 1603px;
+    max-width: 1663px;
+    padding: 0 30px;
     width: 100%;
     margin: 0 auto;
 }
@@ -21,6 +22,10 @@ body {
     margin: 0;
     padding: 0;
     cursor: pointer;
+}
+
+.link__style {
+    color: var(--color-white);
 }
 
 
