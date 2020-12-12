@@ -1,68 +1,87 @@
-.section {
-	position: relative;
+.section__anime {
 	z-index: -1;
 	height: 800px;
-	animation: heroLane 9s alternate ease-in-out infinite;
+	animation: heroLane 6s alternate ease-in-out infinite;
 }
 
-
 @keyframes heroLane {
-	0%{
+	0% {
 		opacity: 1;
 		background-image: url(../../img/banner1.jpg);
 		background-size: cover;
 	}
-11.11%{
-	opacity: 0.9;
-	transform: scale(1.1);
-	background-image: url(../../img/banner1.jpg);
+	11.11% {
+		opacity: 0.9;
+		transform: scale(1.1);
+		background-image: url(../../img/banner1.jpg);
 		background-size: cover;
-}
-22.22%{
-	opacity: 1;
-	transform: scale(1);
-	background-image: url(../../img/banner1.jpg);
+	}
+	22.22% {
+		opacity: 1;
+		transform: scale(1);
+		background-image: url(../../img/banner1.jpg);
 		background-size: cover;
+	}
+	44.44% {
+		opacity: 0.9;
+		background-image: url(../../img/banner2.jpg);
+		background-size: cover;
+	}
+	55.55% {
+		opacity: 1;
+		transform: scale(1);
+		background-image: url(../../img/banner2.jpg);
+		background-size: cover;
+	}
+	66.66% {
+		opacity: 1;
+		transform: scale(1);
+		background-image: url(../../img/banner2.jpg);
+		background-size: cover;
+	}
+	77.77% {
+		opacity: 0.9;
+		background-image: url(../../img/banner3.jpg);
+		background-size: cover;
+	}
+	88.88% {
+		opacity: 1;
+		transform: scale(1.1);
+		background-image: url(../../img/banner3.jpg);
+		background-size: cover;
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+		background-image: url(../../img/banner3.jpg);
+		background-size: cover;
+	}
 }
 
-44.44%{
-	opacity: 0.9;
-	background-image: url(../../img/banner2.jpg);
-	background-size: cover;
-}
-55.55%{
-opacity: 1;
-transform: scale(1.1);
-background-image: url(../../img/banner2.jpg);
-	background-size: cover;
-}
-66.66%{
-opacity: 1;
-transform: scale(1);
-background-image: url(../../img/banner2.jpg);
-	background-size: cover;
-}
-77.77%{
-	opacity: 0.9;
-	background-image: url(../../img/banner3.jpg);
-	background-size: cover;
-}
-88.88%{
-opacity: 1;
-transform: scale(1.1);
-background-image: url(../../img/banner3.jpg);
-	background-size: cover;
-}
-100% {
-opacity: 1;
-transform: scale(1);
-background-image: url(../../img/banner3.jpg);
-	background-size: cover;
+.hero {
+	position: relative;
 }
 
+.hero__title {
+	position: relative;
+	top: 241px;
+	z-index: 5;
+	font-weight: 600;
+	font-size: 72px;
+	line-height: 83px;
+	color: #fff;
+	max-width: 36%;
+	letter-spacing: 1.1px;
 }
 
-
-
-
-
+.hero__text {
+	position: relative;
+	top: 259px;
+	z-index: 5;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+	max-width: 37%;
+	letter-spacing: 0.5px;
+}
