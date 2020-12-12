@@ -1,4 +1,24 @@
 .section {
-    height: 800px;
-    background-image: url(../../img/banner1.jpg);
+	position: relative;
+	z-index: -1;
+	height: 800px;
+	animation: heroLane 3s alternate linear infinite;
+}
+
+@keyframes heroLane {
+	0% {
+		opacity: 1;
+		background-image: url(../../img/banner1.jpg);
+	}
+	50% {
+
+		opacity: 1;
+		background-image: url(../../img/banner2.jpg);
+	}
+	100% {
+		scale: 1.1;
+		opacity: 1;
+		background-image: url(../../img/banner3.jpg);
+	}
+
 }
