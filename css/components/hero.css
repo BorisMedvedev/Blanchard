@@ -29,7 +29,7 @@
 	}
 	55.55% {
 		opacity: 1;
-		transform: scale(1);
+		transform: scale(1.1);
 		background-image: url(../../img/banner2.jpg);
 		background-size: cover;
 	}
@@ -61,14 +61,14 @@
 .hero {
 	position: relative;
 }
+
 .hero__wrapper {
 	position: absolute;
-	position: absolute;
-top: 241px;
-left: 115px;
+	top: 241px;
+	left: 115px;
 }
-.hero__title {
 
+.hero__title {
 	font-weight: 600;
 	font-size: 72px;
 	line-height: 83px;
@@ -78,7 +78,6 @@ left: 115px;
 }
 
 .hero__text {
-
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 30px;
@@ -86,4 +85,17 @@ left: 115px;
 	max-width: 37%;
 	letter-spacing: 0.5px;
 	margin-top: 18px
+}
+
+.hero-btn__link {
+	display: inline-block;
+	color: #fff;
+	padding: 23px 40px;
+	background: #9D5CD0;
+	border-radius: 100px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	margin-top: 92px;
+	margin-left: 5px;
 }
