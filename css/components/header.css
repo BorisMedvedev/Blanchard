@@ -48,7 +48,10 @@
 	fill: var(--color-hover);
 	transition: all 0.2s;
 }
-
+.enter__link:active >svg path {
+	fill: var(--color-activ);
+	transition: all 0.2s;
+}
 .enter__link path {
 	transition: all 0.2s;
 }
@@ -84,6 +87,7 @@
 	height: 70px;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .menu__list {
@@ -95,9 +99,7 @@
 	margin-right: 101px;
 }
 
-.header__search {
-	margin-left: 317px;
-}
+
 
 .form-search__input {
 	background: transparent;
@@ -149,7 +151,7 @@
 }
 
 .header__search:focus {
-	outline: 1px solid red;
+	outline: 1px solid var(--color-activ);
 }
 
 .menu__item {

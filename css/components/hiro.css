@@ -2,23 +2,67 @@
 	position: relative;
 	z-index: -1;
 	height: 800px;
-	animation: heroLane 3s alternate linear infinite;
+	animation: heroLane 9s alternate ease-in-out infinite;
 }
+
 
 @keyframes heroLane {
-	0% {
+	0%{
 		opacity: 1;
 		background-image: url(../../img/banner1.jpg);
+		background-size: cover;
 	}
-	50% {
+11.11%{
+	opacity: 0.9;
+	transform: scale(1.1);
+	background-image: url(../../img/banner1.jpg);
+		background-size: cover;
+}
+22.22%{
+	opacity: 1;
+	transform: scale(1);
+	background-image: url(../../img/banner1.jpg);
+		background-size: cover;
+}
 
-		opacity: 1;
-		background-image: url(../../img/banner2.jpg);
-	}
-	100% {
-		scale: 1.1;
-		opacity: 1;
-		background-image: url(../../img/banner3.jpg);
-	}
+44.44%{
+	opacity: 0.9;
+	background-image: url(../../img/banner2.jpg);
+	background-size: cover;
+}
+55.55%{
+opacity: 1;
+transform: scale(1.1);
+background-image: url(../../img/banner2.jpg);
+	background-size: cover;
+}
+66.66%{
+opacity: 1;
+transform: scale(1);
+background-image: url(../../img/banner2.jpg);
+	background-size: cover;
+}
+77.77%{
+	opacity: 0.9;
+	background-image: url(../../img/banner3.jpg);
+	background-size: cover;
+}
+88.88%{
+opacity: 1;
+transform: scale(1.1);
+background-image: url(../../img/banner3.jpg);
+	background-size: cover;
+}
+100% {
+opacity: 1;
+transform: scale(1);
+background-image: url(../../img/banner3.jpg);
+	background-size: cover;
+}
 
 }
+
+
+
+
+

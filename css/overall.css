@@ -38,7 +38,11 @@ body {
 	color: var(--color-activ);
 	transition: color 0.2s;
 }
+.link__style:focus {
+	outline: 1px solid var(--color-activ);
 
+	transition: color 0.2s;
+}
 
 
 /*====================*/
