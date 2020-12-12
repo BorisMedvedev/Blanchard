@@ -61,11 +61,14 @@
 .hero {
 	position: relative;
 }
-
+.hero__wrapper {
+	position: absolute;
+	position: absolute;
+top: 241px;
+left: 115px;
+}
 .hero__title {
-	position: relative;
-	top: 241px;
-	z-index: 5;
+
 	font-weight: 600;
 	font-size: 72px;
 	line-height: 83px;
@@ -75,13 +78,12 @@
 }
 
 .hero__text {
-	position: relative;
-	top: 259px;
-	z-index: 5;
+
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 30px;
 	color: #fff;
 	max-width: 37%;
 	letter-spacing: 0.5px;
+	margin-top: 18px
 }
