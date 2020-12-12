@@ -1,32 +1,44 @@
 .site-container {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .container {
-    max-width: 1663px;
-    padding: 0 30px;
-    width: 100%;
-    margin: 0 auto;
+	max-width: 1663px;
+	padding: 0 30px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #e5e5e5;
-    font-weight: 400;
-    font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #e5e5e5;
+	font-weight: 400;
+	font-size: 16px;
 }
 
 .btn-reset {
-    background: none;
-    border: none;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
 }
 
 .link__style {
-    color: var(--color-white);
+	color: var(--color-white);
+	transition: color 0.2s;
 }
+
+.link__style:hover {
+	color: var(--color-hover);
+	transition: color 0.2s;
+}
+
+.link__style:active {
+	color: var(--color-activ);
+	transition: color 0.2s;
+}
+
 
 
 /*====================*/
