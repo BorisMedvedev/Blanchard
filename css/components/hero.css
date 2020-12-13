@@ -1,10 +1,10 @@
-.section__anime {
+.hero__anime {
 	z-index: -1;
 	height: 800px;
 	animation: heroLane 6s alternate ease-in-out infinite;
 }
 
-/@keyframes heroLane {
+@keyframes heroLane {
 	0% {
 		opacity: 1;
 		background-image: url(../../img/banner1.jpg);
@@ -12,13 +12,13 @@
 	}
 	11.11% {
 		opacity: 0.9;
-		transform: scale(1.1);
+		transform: scale(1);
 		background-image: url(../../img/banner1.jpg);
 		background-size: cover;
 	}
 	22.22% {
 		opacity: 1;
-		transform: scale(1);
+		transform: scale(1.1);
 		background-image: url(../../img/banner1.jpg);
 		background-size: cover;
 	}
@@ -29,13 +29,13 @@
 	}
 	55.55% {
 		opacity: 1;
-		transform: scale(1.1);
+		transform: scale(1);
 		background-image: url(../../img/banner2.jpg);
 		background-size: cover;
 	}
 	66.66% {
 		opacity: 1;
-		transform: scale(1);
+		transform: scale(1.1);
 		background-image: url(../../img/banner2.jpg);
 		background-size: cover;
 	}
@@ -46,13 +46,13 @@
 	}
 	88.88% {
 		opacity: 1;
-		transform: scale(1.1);
+		transform: scale(1);
 		background-image: url(../../img/banner3.jpg);
 		background-size: cover;
 	}
 	100% {
 		opacity: 1;
-		transform: scale(1);
+		transform: scale(1.1);
 		background-image: url(../../img/banner3.jpg);
 		background-size: cover;
 	}
@@ -92,10 +92,31 @@
 	color: #fff;
 	padding: 23px 40px;
 	background: #9D5CD0;
+	border: 3px solid #9D5CD0;
 	border-radius: 100px;
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 25px;
 	margin-top: 92px;
 	margin-left: 5px;
+	transition: all 0.2s;
+}
+
+.hero-btn__link:hover {
+	background: #9D5CD0;
+	border: 3px solid #D1A9F0;
+	transition: all 0.2s;
+}
+
+.hero-btn__link:active {
+	background: #7943A4;
+	border: 3px solid #D1A9F0;
+	transition: all 0.2s;
+}
+
+.hero-btn__link:focus {
+	outline: none;
+	background: #9D5CD0;
+	border: 3px solid #7943A4;
+	transition: all 0.2s;
 }

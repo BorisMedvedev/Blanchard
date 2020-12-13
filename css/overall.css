@@ -29,6 +29,16 @@ body {
 	transition: color 0.2s;
 }
 
+.dropdown-menu__item:hover {
+	outline: 2px solid #D1A9F0;
+	transition: all 0.2s;
+}
+
+.dropdown-menu__item:hover .link__border {
+	color: #fff;
+	transition: all 0.2s;
+}
+
 .link__style:hover {
 	color: var(--color-hover);
 	transition: color 0.2s;
@@ -38,11 +48,14 @@ body {
 	color: var(--color-activ);
 	transition: color 0.2s;
 }
-.link__style:focus {
-	outline: 1px solid var(--color-activ);
 
+.link__style:focus {
+	outline: 2px solid var(--color-activ);
 	transition: color 0.2s;
 }
 
+.link__border:focus {
+	outline: none;
+}
 
 /*====================*/
