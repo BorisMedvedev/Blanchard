@@ -92,8 +92,8 @@
 	display: inline-block;
 	color: #fff;
 	padding: 23px 40px;
-	background: #9D5CD0;
-	border: 3px solid #9D5CD0;
+	background: var(--color-akcent);
+	border: 3px solid var(--color-akcent);
 	border-radius: 100px;
 	font-weight: 600;
 	font-size: 18px;
@@ -104,20 +104,20 @@
 }
 
 .hero-btn__link:hover {
-	background: #9D5CD0;
-	border: 3px solid #D1A9F0;
+	background: var(--color-akcent);
+	border: 3px solid var(--color-border);
 	transition: all 0.2s;
 }
 
 .hero-btn__link:active {
-	background: #7943A4;
-	border: 3px solid #D1A9F0;
+	background: var(--color-activ);
+	border: 3px solid var(--color-border);
 	transition: all 0.2s;
 }
 
 .hero-btn__link:focus {
 	outline: none;
-	background: #9D5CD0;
-	border: 3px solid #7943A4;
+	background: var(--color-activ);
+	border: 3px solid var(--color-border);
 	transition: all 0.2s;
 }
