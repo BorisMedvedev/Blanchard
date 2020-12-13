@@ -10,21 +10,7 @@
 @font-face {
 	font-family: 'Open Sans';
 	src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'), url('../fonts/opensans-regular-webfont.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	src: url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'), url('../fonts/opensans-extrabold-webfont.woff') format('woff');
-	font-weight: extrabold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	src: url('../fonts/opensans-light-webfont.woff2') format('woff2'), url('../fonts/opensans-light-webfont.woff') format('woff');
-	font-weight: 200;
+	font-weight: 400;
 	font-style: normal;
 }
 
