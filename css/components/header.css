@@ -48,10 +48,12 @@
 	fill: var(--color-hover);
 	transition: all 0.2s;
 }
-.enter__link:active >svg path {
+
+.enter__link:active>svg path {
 	fill: var(--color-activ);
 	transition: all 0.2s;
 }
+
 .enter__link path {
 	transition: all 0.2s;
 }
@@ -98,8 +100,6 @@
 .menu__item:not(:last-child) {
 	margin-right: 101px;
 }
-
-
 
 .form-search__input {
 	background: transparent;
@@ -160,10 +160,11 @@
 
 .menu__skroll {
 	position: absolute;
+	z-index: 99;
 	background-color: rgba(0, 0, 0, 0.6);
 	width: 300px;
 	height: 300px;
-	top: 70px;
+	top: 45px;
 	right: 0;
 	left: 0;
 }
@@ -172,8 +173,15 @@
 	font-weight: 300;
 	font-size: 18px;
 	display: block;
-	height: 70px;
-	line-height: 70px;
+}
+
+.menu__link::before {
+	content: "";
+	display: block;
+	position: absolute;
+	z-index: 10;
+	width: 150px;
+	height: 50px;
 }
 
 .dropdown-menu__item {
@@ -209,41 +217,50 @@
 	height: 100%;
 }
 
-.simplebar-content {
+.dropdown-menu__item:active {
+	background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4));
+	outline: 2px solid #D1A9F0;
+	transition: all 0.2s;
+}
+
+.simplebar-scrollbar {
+	height: 220px;
+}
+
+.simplebar-content-wrapper {
+	overflow: auto;
+}
+
+.simplebar-offset {
+	direction: inherit !important;
 	margin-bottom: 40px;
 }
 
 .simplebar-track.simplebar-vertical {
 	top: 40px;
+	bottom: 40px;
 	background: #000;
+	width: 2px;
 	right: 19px;
-	width: 2px;
-	height: 220px;
 }
 
-.simplebar-visible::before {
-	position: absolute;
-	z-index: 99;
-	opacity: 1;
-	background: #fff;
-	height: px;
-	width: 2px;
-}
-
-.simplebar-scrollbar {
-	position: absolute;
-	opacity: 1;
-	left: 0;
+.simplebar-scrollbar::before {
+	top: 0;
 	right: 0;
-	min-height: 10px;
-	background: #fff;
-	height: 28px;
+	bottom: 0;
+	left: 0;
+	opacity: 1;
+	background-color: #fff;
 }
 
-.dropdown-menu__item:active {
-	background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4));
-	outline: 2px solid #D1A9F0;
-	transition: all 0.2s;
+.simplebar-track.simplebar-vertical .simplebar-scrollbar::before {
+	top: 0px;
+	bottom: 0px;
+}
+
+.simplebar-scrollbar.simplebar-visible::before {
+	opacity: 1;
+	transition: opacity 0s linear;
 }
 
 .menu__skroll {

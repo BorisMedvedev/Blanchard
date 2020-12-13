@@ -4,7 +4,7 @@
 	animation: heroLane 6s alternate ease-in-out infinite;
 }
 
-@keyframes heroLane {
+/@keyframes heroLane {
 	0% {
 		opacity: 1;
 		background-image: url(../../img/banner1.jpg);
