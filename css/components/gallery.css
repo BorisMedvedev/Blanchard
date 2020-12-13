@@ -1,0 +1,14 @@
+.swiper-container {
+	padding-top: 50px;
+	width: 1150px;
+	height: auto;
+}
+
+.swiper-wrapper {}
+
+.swiper-slide {
+	max-width: 350px;
+	max-height: 350px;
+}
+
+.swiper-slide {}
