@@ -1,8 +1,14 @@
-.hero {}
+.hero {
+	overflow: hidden;
+	position: relative;
+}
 
 .hero__anime {
-	overflow: hidden;
+
+  white-space: nowrap;
+  word-wrap: normal;
 	position: absolute;
+
 	top: 0;
 	left: 0;
 	right: 0;
