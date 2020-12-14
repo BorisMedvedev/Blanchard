@@ -22,9 +22,10 @@ body {
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
+	outline: none;
 }
 
-.link__style {
+.dropdown-menu__style {
 	color: var(--color-white);
 	transition: color 0.2s;
 }
@@ -34,27 +35,27 @@ body {
 	transition: all 0.2s;
 }
 
-.dropdown-menu__item:hover .link__border {
+.dropdown-menu__item:hover .dropdown-menu__outl {
 	color: #fff;
 	transition: all 0.2s;
 }
 
-.link__style:hover {
+.dropdown-menu__style:hover {
 	color: var(--color-hover);
 	transition: color 0.2s;
 }
 
-.link__style:active {
+.dropdown-menu__style:active {
 	color: var(--color-activ);
 	transition: color 0.2s;
 }
 
-.link__style:focus {
+.dropdown-menu__style:focus {
 	outline: 2px solid var(--color-activ);
 	transition: color 0.2s;
 }
 
-.link__border:focus {
+.dropdown-menu__outl:focus {
 	outline: none;
 }
 

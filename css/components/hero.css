@@ -1,6 +1,13 @@
+.hero {}
+
 .hero__anime {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	z-index: -1;
-	height: 800px;
 	animation: heroLane 6s alternate ease-in-out infinite;
 }
 
@@ -58,24 +65,14 @@
 	}
 }
 
-.hero {
-	overflow: hidden;
-	position: relative;
-}
-
-.hero__wrapper {
-	position: absolute;
-	top: 241px;
-	left: 115px;
-}
-
 .hero__title {
+	margin-top: 242px;
 	font-weight: 600;
 	font-size: 72px;
 	line-height: 83px;
 	color: #fff;
 	max-width: 36%;
-	letter-spacing: 1.7px;
+	letter-spacing: 1.5px;
 }
 
 .hero__text {
@@ -91,7 +88,7 @@
 .hero-btn__link {
 	display: inline-block;
 	color: #fff;
-	padding: 23px 40px;
+	padding: 20px 37px;
 	background: var(--color-akcent);
 	border: 3px solid var(--color-akcent);
 	border-radius: 100px;
@@ -99,7 +96,7 @@
 	font-size: 18px;
 	line-height: 25px;
 	margin-top: 92px;
-	margin-left: 5px;
+	margin-bottom: 121px;
 	transition: all 0.2s;
 }
 

@@ -103,7 +103,7 @@
 }
 
 .menu__item:not(:last-child) {
-	margin-right: 101px;
+	margin-right: 99px;
 }
 
 .form-search__input {
@@ -155,8 +155,8 @@
 	transition: all 0.2s;
 }
 
-.header__search:focus {
-	outline: 1px solid var(--color-activ);
+.header__search:focus-visible {
+	outline: 2px solid var(--color-activ);
 }
 
 .menu__item {
@@ -180,13 +180,19 @@
 	display: block;
 }
 
+.menu__link svg {
+	margin-left: 2px;
+	transform: translateY(-1px);
+	transition: all 0.2s;
+}
+
 .menu__link::before {
 	content: "";
 	display: block;
 	position: absolute;
-	z-index: 10;
+	z-index: 999;
 	width: 150px;
-	height: 50px;
+	height: 90px;
 }
 
 .dropdown-menu__item {
@@ -239,11 +245,6 @@
 	overflow: auto;
 }
 
-.simplebar-offset {
-	direction: inherit !important;
-	margin-bottom: 30px;
-}
-
 .simplebar-track.simplebar-vertical {
 	top: 40px;
 	bottom: 40px;
@@ -277,152 +278,4 @@
 
 .menu__item:hover .menu__skroll {
 	display: block;
-}
-
-.link__bg-1 {
-	background-image: url(../../img/drop1_1.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-2 {
-	background-image: url(../../img/drop1_2.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-3 {
-	background-image: url(../../img/drop1_3.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-4 {
-	background-image: url(../../img/drop1_4.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-/*================================*/
-
-.link__bg-5 {
-	background-image: url(../../img/drop2_1.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-6 {
-	background-image: url(../../img/drop2_2.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-7 {
-	background-image: url(../../img/drop2_3.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-8 {
-	background-image: url(../../img/drop2_4.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-/*===========================*/
-
-.link__bg-9 {
-	background-image: url(../../img/drop3_1.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-10 {
-	background-image: url(../../img/drop3_2.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-11 {
-	background-image: url(../../img/drop3_3.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-12 {
-	background-image: url(../../img/drop3_4.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-/*=======================*/
-
-.link__bg-13 {
-	background-image: url(../../img/drop4_1.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-14 {
-	background-image: url(../../img/drop4_2.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-15 {
-	background-image: url(../../img/drop4_3.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-16 {
-	background-image: url(../../img/drop4_4.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-/*==============*/
-
-.link__bg-17 {
-	background-image: url(../../img/drop5_1.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-18 {
-	background-image: url(../../img/drop5_2.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-19 {
-	background-image: url(../../img/drop5_3.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.link__bg-20 {
-	background-image: url(../../img/drop5_4.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
