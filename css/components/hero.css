@@ -14,7 +14,7 @@
 	right: 0;
 	bottom: 0;
 	z-index: -1;
-	animation: heroLane 6s alternate ease-in-out infinite;
+	animation: heroLane 15s alternate ease-in-out infinite;
 }
 
 @keyframes heroLane {
