@@ -70,7 +70,7 @@
   }
 }
 .hero__titleh1 {
-  visibility: hidden;
+  z-index: -99999;;
 }
 
 .hero__title {
