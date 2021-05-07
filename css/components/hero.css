@@ -1,127 +1,128 @@
 .hero {
-	overflow: hidden;
-	position: relative;
+  overflow: hidden;
+  position: relative;
 }
 
 .hero__anime {
-
   white-space: nowrap;
   word-wrap: normal;
-	position: absolute;
-
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -1;
-	animation: heroLane 15s alternate ease-in-out infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  animation: heroLane 20s alternate ease-in-out infinite;
 }
 
 @keyframes heroLane {
-	0% {
-		opacity: 1;
-		background-image: url(../../img/banner1.jpg);
-		background-size: cover;
-	}
-	11.11% {
-		opacity: 0.9;
-		transform: scale(1);
-		background-image: url(../../img/banner1.jpg);
-		background-size: cover;
-	}
-	22.22% {
-		opacity: 1;
-		transform: scale(1.1);
-		background-image: url(../../img/banner1.jpg);
-		background-size: cover;
-	}
-	44.44% {
-		opacity: 0.9;
-		background-image: url(../../img/banner2.jpg);
-		background-size: cover;
-	}
-	55.55% {
-		opacity: 1;
-		transform: scale(1);
-		background-image: url(../../img/banner2.jpg);
-		background-size: cover;
-	}
-	66.66% {
-		opacity: 1;
-		transform: scale(1.1);
-		background-image: url(../../img/banner2.jpg);
-		background-size: cover;
-	}
-	77.77% {
-		opacity: 0.9;
-		background-image: url(../../img/banner3.jpg);
-		background-size: cover;
-	}
-	88.88% {
-		opacity: 1;
-		transform: scale(1);
-		background-image: url(../../img/banner3.jpg);
-		background-size: cover;
-	}
-	100% {
-		opacity: 1;
-		transform: scale(1.1);
-		background-image: url(../../img/banner3.jpg);
-		background-size: cover;
-	}
+  0% {
+    opacity: 1;
+    background-image: url(../../img/banner1.jpg);
+    background-size: cover;
+  }
+  11.11% {
+    opacity: 1;
+    transform: scale(1.1);
+    background-image: url(../../img/banner1.jpg);
+    background-size: cover;
+  }
+  22.22% {
+    opacity: 0.8;
+    transform: scale(1);
+    background-image: url(../../img/banner1.jpg);
+    background-size: cover;
+  }
+  /*======================================================*/
+  44.44% {
+    opacity: 1;
+    background-image: url(../../img/banner2.jpg);
+    background-size: cover;
+  }
+  55.55% {
+    opacity: 1;
+    transform: scale(1.1);
+    background-image: url(../../img/banner2.jpg);
+    background-size: cover;
+  }
+  66.66% {
+    opacity: 0.8;
+    transform: scale(1);
+    background-image: url(../../img/banner2.jpg);
+    background-size: cover;
+  }
+  77.77% {
+    opacity: 1;
+    background-image: url(../../img/banner3.jpg);
+    background-size: cover;
+  }
+  88.88% {
+    opacity: 1;
+    transform: scale(1.1);
+    background-image: url(../../img/banner3.jpg);
+    background-size: cover;
+  }
+  100% {
+    opacity: 0.8;
+    transform: scale(1);
+    background-image: url(../../img/banner3.jpg);
+    background-size: cover;
+  }
+}
+.hero__titleh1 {
+  visibility: hidden;
 }
 
 .hero__title {
-	margin-top: 242px;
-	font-weight: 600;
-	font-size: 72px;
-	line-height: 83px;
-	color: #fff;
-	max-width: 36%;
-	letter-spacing: 1.5px;
+  margin-top: 242px;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 83px;
+  color: #fff;
+  max-width: 36%;
+  letter-spacing: 1.5px;
 }
 
 .hero__text {
-	font-weight: 600;
-	font-size: 18px;
-	line-height: 30px;
-	color: #fff;
-	max-width: 37%;
-	letter-spacing: 0.5px;
-	margin-top: 18px
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  max-width: 37%;
+  letter-spacing: 0.5px;
+  margin-top: 18px
 }
 
 .hero-btn__link {
-	display: inline-block;
-	color: #fff;
-	padding: 20px 37px;
-	background: var(--color-akcent);
-	border: 3px solid var(--color-akcent);
-	border-radius: 100px;
-	font-weight: 600;
-	font-size: 18px;
-	line-height: 25px;
-	margin-top: 92px;
-	margin-bottom: 121px;
-	transition: all 0.2s;
+  display: inline-block;
+  color: #fff;
+  padding: 20px 37px;
+  background: var(--color-akcent);
+  border: 3px solid var(--color-akcent);
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 92px;
+  margin-bottom: 121px;
+  transition: all 0.2s;
 }
 
 .hero-btn__link:hover {
-	background: var(--color-akcent);
-	border: 3px solid var(--color-border);
-	transition: all 0.2s;
+  background: var(--color-akcent);
+  border: 3px solid var(--color-border);
+  transition: all 0.2s;
 }
 
 .hero-btn__link:active {
-	background: var(--color-activ);
-	border: 3px solid var(--color-border);
-	transition: all 0.2s;
+  background: var(--color-activ);
+  border: 3px solid var(--color-border);
+  transition: all 0.2s;
 }
 
 .hero-btn__link:focus {
-	outline: none;
-	background: var(--color-activ);
-	border: 3px solid var(--color-border);
-	transition: all 0.2s;
+  outline: none;
+  background: var(--color-activ);
+  border: 3px solid var(--color-border);
+  transition: all 0.2s;
 }
-
