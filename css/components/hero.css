@@ -74,7 +74,7 @@
 }
 
 .hero__title {
-  margin-top: 242px;
+  padding-top: 204px;
   font-weight: 600;
   font-size: 72px;
   line-height: 83px;
@@ -90,10 +90,10 @@
   color: #fff;
   max-width: 37%;
   letter-spacing: 0.5px;
-  margin-top: 18px
+  padding-top: 18px
 }
 
-.hero-btn__link {
+.hero__link {
   display: inline-block;
   color: #fff;
   padding: 20px 37px;
@@ -108,19 +108,19 @@
   transition: all 0.2s;
 }
 
-.hero-btn__link:hover {
+.hero__link:hover {
   background: var(--color-akcent);
   border: 3px solid var(--color-border);
   transition: all 0.2s;
 }
 
-.hero-btn__link:active {
+.hero__link:active {
   background: var(--color-activ);
   border: 3px solid var(--color-border);
   transition: all 0.2s;
 }
 
-.hero-btn__link:focus {
+.hero__link:focus {
   outline: none;
   background: var(--color-activ);
   border: 3px solid var(--color-border);

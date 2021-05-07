@@ -6,7 +6,7 @@
   right: 0;
 }
 
-.burger__mobail {
+.burger__btn {
   display: none;
 }
 
@@ -51,36 +51,36 @@
 
 .enter__link:hover .enter__link path {
   fill: var(--color-hover);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .enter__link:active>svg path {
   fill: var(--color-activ);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .enter__link path {
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .enter__link:hover path {
   fill: var(--color-hover);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .menu__link:hover path {
   stroke: var(--color-hover);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .menu__link:hover svg {
   transform: rotate(180deg);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .menu__link:active path {
   stroke: var(--color-activ);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 /*===========================*/
@@ -106,6 +106,10 @@
   margin-right: 99px;
 }
 
+.form-search:focus-within {
+  outline: 2px solid var(--color-activ);
+}
+
 .form-search__input {
   background: transparent;
   cursor: pointer;
@@ -117,7 +121,7 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .form-search__input:hover {
@@ -130,29 +134,29 @@
 
 .form-search__btn {
   transform: translateY(6px);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .form-search__btn:hover svg rect {
   fill: var(--color-hover);
   stroke: var(--color-hover);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .form-search__btn:hover path {
   fill: var(--color-hover);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .form-search__btn:active svg rect {
   fill: var(--color-activ);
   stroke: var(--color-activ);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .form-search__btn:active path {
   fill: var(--color-activ);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .header__search:focus-visible {
@@ -183,7 +187,7 @@
 .menu__link svg {
   margin-left: 2px;
   transform: translateY(-1px);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .menu__link::before {
@@ -199,7 +203,7 @@
   position: relative;
   padding: 9px 0 12px 14px;
   display: block;
-  transition: all 0.2s;
+  transition: transform 0.2s;
 }
 
 .dropdown-menu__link {
@@ -234,15 +238,12 @@
   z-index: 1;
   background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4));
   outline: 2px solid #D1A9F0;
-  transition: all 0.2s;
-}
-
-.simplebar-scrollbar {
-  height: 220px;
+  transition: background 0.2s;
 }
 
 .simplebar-content-wrapper {
   overflow: auto;
+
 }
 
 .simplebar-track.simplebar-vertical {
@@ -265,13 +266,21 @@
 .simplebar-track.simplebar-vertical .simplebar-scrollbar::before {
   top: 0px;
   bottom: 0px;
+  height: 100%;
+  background: #9d5cd0;
 }
 
 .simplebar-scrollbar.simplebar-visible::before {
   opacity: 1;
+  height: 100%;
   transition: opacity 0s linear;
 }
-
+.simplebar-content {
+  padding-bottom: 40px;
+}
+.simplebar-offset {
+  padding-bottom: 40px;
+}
 .menu__skroll {
   display: none;
 }
