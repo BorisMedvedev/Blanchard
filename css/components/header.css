@@ -54,36 +54,36 @@
 
 .enter__link:hover .enter__link path {
   fill: var(--color-hover);
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 .enter__link:active>svg path {
   fill: var(--color-activ);
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 .enter__link path {
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 .enter__link:hover path {
   fill: var(--color-hover);
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 .menu__link:hover path {
   stroke: var(--color-hover);
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 .menu__link:hover svg {
   transform: rotate(180deg);
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 .menu__link:active path {
   stroke: var(--color-activ);
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 /*===========================*/
@@ -123,7 +123,7 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 .form-search__input:hover {
@@ -142,23 +142,23 @@
 .form-search__btn:hover svg rect {
   fill: var(--color-hover);
   stroke: var(--color-hover);
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 .form-search__btn:hover path {
   fill: var(--color-hover);
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 .form-search__btn:active svg rect {
   fill: var(--color-activ);
   stroke: var(--color-activ);
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 .form-search__btn:active path {
   fill: var(--color-activ);
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 
 .header__search:focus-visible {
@@ -191,15 +191,6 @@
   transform: translateY(-1px);
   transition: color 0.2s;
 }
-
-/* .menu__link::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: 999;
-  width: 150px;
-  height: 90px;
-} */
 
 .dropdown-menu__item {
   position: relative;
