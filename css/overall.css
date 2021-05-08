@@ -58,5 +58,9 @@ body {
 .dropdown-menu__outl:focus {
 	outline: none;
 }
-
+.section__title {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+}
 /*====================*/

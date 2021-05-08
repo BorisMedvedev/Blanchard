@@ -1,14 +1,46 @@
-.swiper-container {
-	padding-top: 50px;
-	width: 1150px;
-	height: auto;
+.galleri {
+  background-image: url(../../img/galleri_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.galleri-container {
+  display: flex;
+  justify-content: space-between;
+}
+.galleri-left {
+  display: flex;
+  flex-direction: column;
 }
 
+.galleri-left__title {
+  padding-top: 80px;
+  color: #fff;
+}
+
+.galleri-left__text {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.galleri-right {
+
+}
+
+.swiper-container {
+  padding-top: 170px;
+  margin-right: inherit;
+  max-width: 1150px;
+  height: auto;
+}
+.galleri-right__swiper {
+
+}
 .swiper-wrapper {}
 
 .swiper-slide {
-	max-width: 350px;
-	max-height: 350px;
+  max-width: 350px;
+  max-height: 350px;
 }
 
 .swiper-slide {}
