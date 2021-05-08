@@ -3,6 +3,11 @@
   position: relative;
 }
 
+.hero__wrapper {
+  padding-top: 239px;
+  padding-bottom: 119px;
+}
+
 .hero__anime {
   white-space: nowrap;
   word-wrap: normal;
@@ -69,12 +74,14 @@
     background-size: cover;
   }
 }
+
 .hero__titleh1 {
-  z-index: -99999;;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
 }
 
 .hero__title {
-  padding-top: 204px;
   font-weight: 600;
   font-size: 72px;
   line-height: 83px;
@@ -90,7 +97,10 @@
   color: #fff;
   max-width: 37%;
   letter-spacing: 0.5px;
-  padding-top: 18px
+  padding-top: 18px;
+  margin-top: 0;
+  padding-bottom: 94px;
+
 }
 
 .hero__link {
@@ -103,21 +113,20 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
-  margin-top: 92px;
-  margin-bottom: 121px;
+
   transition: all 0.2s;
 }
 
 .hero__link:hover {
   background: var(--color-akcent);
   border: 3px solid var(--color-border);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .hero__link:active {
   background: var(--color-activ);
   border: 3px solid var(--color-border);
-  transition: all 0.2s;
+  transition: color 0.2s;
 }
 
 .hero__link:focus {

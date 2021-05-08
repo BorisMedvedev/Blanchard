@@ -24,6 +24,7 @@
 }
 
 .galleri-left__text {
+  margin-top: 24px;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
@@ -32,10 +33,10 @@
 }
 
 .galleri-left__discription {
-  max-width: 400px;
+  max-width: 88%;
   font-weight: 600;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 29px;
   color: #fff;
 }
 
@@ -48,7 +49,9 @@
   height: auto;
 }
 
-.galleri-right__swiper {}
+.galleri-right__swiper {
+  padding-top: 86px;
+}
 
 .swiper-wrapper {}
 
