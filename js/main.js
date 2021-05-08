@@ -27,6 +27,10 @@ var mySwiper = new Swiper('.swiper-1', {
 	slidesPerColumnFill: "row",
 	slidesPerGroup: 3,
 	spaceBetween: 50,
+	pagination: {
+		el: ".swiper-pagination",
+		type: "fraction",
+	},
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
