@@ -102,3 +102,11 @@
 }
 
 .swiper-slide {}
+
+.swiper-pagination-fraction {
+  display: flex;
+  position: absolute;
+  top: 32px;
+  left: 48px;
+  color: var(--color-white);
+}
