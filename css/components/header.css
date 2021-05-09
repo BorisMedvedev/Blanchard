@@ -54,36 +54,36 @@
 
 .enter__link:hover .enter__link path {
   fill: var(--color-hover);
-  transition: all 0.2s;
+  transition: fill 0.2s ease;
 }
 
 .enter__link:active>svg path {
   fill: var(--color-activ);
-  transition: all 0.2s;
+  transition: fill 0.2s ease;
 }
 
 .enter__link path {
-  transition: all 0.2s;
+  transition: fill 0.2s ease;
 }
 
 .enter__link:hover path {
   fill: var(--color-hover);
-  transition: all 0.2s;
+  transition: fill 0.2s ease;
 }
 
 .menu__link:hover path {
   stroke: var(--color-hover);
-  transition: all 0.2s;
+  transition: stroke 0.2s ease;
 }
 
 .menu__link:hover svg {
   transform: rotate(180deg);
-  transition: all 0.2s;
+  transition: rotate 0.2s ease;
 }
 
 .menu__link:active path {
   stroke: var(--color-activ);
-  transition: all 0.2s;
+  transition: stroke 0.2s ease;
 }
 
 /*===========================*/
@@ -113,7 +113,7 @@
 }
 
 .form-search__input {
-  background: transparent;
+  background-color: transparent;
   cursor: pointer;
   outline: none;
   border: none;
@@ -123,20 +123,21 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
-  transition: all 0.2s;
+  transition: color 0.2s ease;
 }
 
 .form-search__input:hover {
   border-bottom: 1px solid var(--color-hover);
+  transition: color 0.2s ease;
 }
 
 .form-search__input:active {
   border-bottom: 1px solid var(--color-hover);
+  transition: color 0.2s ease;
 }
 
 .form-search__btn {
   transform: translateY(6px);
-  transition: color 0.2s;
 }
 
 .form-search__btn:hover svg rect {
@@ -147,18 +148,18 @@
 
 .form-search__btn:hover path {
   fill: var(--color-hover);
-  transition: all 0.2s;
+  transition: fill 0.2s ease;
 }
 
 .form-search__btn:active svg rect {
   fill: var(--color-activ);
   stroke: var(--color-activ);
-  transition: all 0.2s;
+  transition: fill 0.2s ease;
 }
 
 .form-search__btn:active path {
   fill: var(--color-activ);
-  transition: all 0.2s;
+  transition: fill 0.2s ease;
 }
 
 .header__search:focus-visible {
@@ -231,7 +232,7 @@
   z-index: 1;
   background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4));
   outline: 2px solid #D1A9F0;
-  transition: background 0.2s;
+  transition: background 0.2s ease;
 }
 
 .simplebar-content-wrapper {
