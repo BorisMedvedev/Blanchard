@@ -89,7 +89,7 @@
 /*===========================*/
 
 .header-bottom {
-  background: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .bottom-wrapper {
@@ -118,8 +118,8 @@
   outline: none;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.85);
-  color: #fff;
-  max-width: 226px;
+  color: var(--color-white);
+  width: 226px;
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
@@ -231,7 +231,7 @@
   position: absolute;
   z-index: 1;
   background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4));
-  outline: 2px solid #D1A9F0;
+  outline: 2px solid var(--color-border);
   transition: background 0.2s ease;
 }
 
@@ -242,7 +242,7 @@
 .simplebar-track.simplebar-vertical {
   top: 40px;
   bottom: 40px;
-  background: #000;
+  background-color: var(--color-black);
   width: 2px;
   right: 19px;
 }
@@ -253,14 +253,14 @@
   bottom: 0;
   left: 0;
   opacity: 1;
-  background-color: #fff;
+  background-color: var(--color-white);
 }
 
 .simplebar-track.simplebar-vertical .simplebar-scrollbar::before {
   top: 0px;
   bottom: 0px;
   height: 100%;
-  background-color: #9d5cd0;
+  background-color: var(--color-akcent);
 }
 
 .simplebar-scrollbar.simplebar-visible::before {
