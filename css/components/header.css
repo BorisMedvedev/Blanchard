@@ -197,7 +197,7 @@
   position: relative;
   padding: 9px 0 12px 14px;
   display: block;
-  transition: transform 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .dropdown-menu__link {
@@ -232,7 +232,7 @@
   z-index: 1;
   background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4));
   outline: 2px solid var(--color-border);
-  transition: background 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .simplebar-content-wrapper {
