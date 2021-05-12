@@ -182,7 +182,7 @@
   z-index: 1;
   width: 90%;
   height: 90%;
-  background: url(/img/Group_hover.svg);
+  background: url(../../img/Group_hover.svg);
   pointer-events: none;
   transform: translateX(-50%) translateY(-50%);
   cursor: pointer;
