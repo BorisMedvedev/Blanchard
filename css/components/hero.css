@@ -118,18 +118,18 @@
 .hero__link:hover {
   background: var(--color-akcent);
   border: 3px solid var(--color-border);
-  transition: all 0.2s;
+  transition: background 0.2s ease;
 }
 
 .hero__link:active {
   background: var(--color-activ);
   border: 3px solid var(--color-border);
-  transition: all 0.2s;
+  transition: background 0.2s ease;
 }
 
 .hero__link:focus {
   outline: none;
   background: var(--color-activ);
   border: 3px solid var(--color-border);
-  transition: all 0.2s;
+  transition: outline-color 0.2s ease;
 }

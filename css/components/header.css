@@ -174,8 +174,8 @@
   position: absolute;
   z-index: 99;
   background-color: rgba(0, 0, 0, 0.6);
-  width: 300px;
-  height: 300px;
+  max-width: 300px;
+  max-height: 300px;
   top: 45px;
   right: 0;
   left: 0;

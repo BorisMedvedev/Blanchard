@@ -32,7 +32,7 @@ body {
 
 .dropdown-menu__item:hover {
 	outline: 2px solid #D1A9F0;
-	transition: color 0.2s ease;
+	transition: outline-color 0.2s ease;
 }
 
 .dropdown-menu__item:hover .dropdown-menu__outl {

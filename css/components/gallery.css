@@ -28,7 +28,8 @@
 }
 
 .choices {
-  max-width: 88%;
+  max-width: 89%;
+  max-height: 45px;
   border-radius: 6px;
 }
 
@@ -51,6 +52,12 @@
   display: none;
 }
 
+.choices__list--single .choices__item {
+  width: 100%;
+  padding-left: 5px;
+  letter-spacing: 2px;
+}
+
 .choices__list--dropdown .choices__item--selectable.is-highlighted {
   background-color: transparent;
   border: 1px solid var(--color-white);
@@ -66,7 +73,7 @@
 }
 
 .gallery-left__text {
-  margin-top: 24px;
+  margin-top: 20px;
   font-size: 16px;
   font-weight: 600;
   color: var(--color-white);
@@ -98,24 +105,91 @@
 
 .gallery__slider-nav {
   position: absolute;
+  padding: 0;
+  margin: 0;
   top: 25px;
-  left: 3px;
+  left: 0;
   display: flex;
+  align-items: center;
 }
 
-.swiper-button-prev {
-  left: 10px;
-  right: auto;
-}
-
-.swiper-button-next {
-  left: 90px;
-  right: auto;
-}
-
-.swiper-pagination-fraction {
-  bottom: -39px;
-  left: 56px;
-  display: flex;
+.swiper-pagination {
+  position: static;
   color: #fff;
+}
+
+.swiper-pagination-fraction__nav {
+  width: auto;
+  padding: 0 17px;
+  z-index: 999;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  position: relative;
+  background-color: #666;
+  width: 27px;
+  height: 27px;
+  left: 0;
+  border-radius: 100%;
+  transition: background-color .2s ease;
+}
+
+.swiper-button-prev::after {
+  font-size: 11px;
+  color: #fff;
+  pointer-events: none;
+}
+
+.swiper-button-next::after {
+  font-size: 11px;
+  color: #fff;
+  pointer-events: none;
+}
+
+.swiper-button-prev:hover {
+  background-color: var(--color-hover);
+  transition: background-color .2s ease;
+}
+
+.swiper-button-next:hover {
+  background-color: var(--color-hover);
+  transition: background-color .2s ease;
+}
+
+.swiper-button-prev:active {
+  background: var(--color-activ);
+  border: 3px solid var(--color-border);
+  transition: background 0.2s ease;
+}
+
+.swiper-button-next:active {
+  background: var(--color-activ);
+  border: 3px solid var(--color-border);
+  transition: background 0.2s ease;
+}
+
+.swiper-slide {
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+
+.swiper-slide::before {
+  content: '';
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 90%;
+  height: 90%;
+  background: url(/img/Group_hover.svg);
+  pointer-events: none;
+  transform: translateX(-50%) translateY(-50%);
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+
+.swiper-slide:hover::before {
+  opacity: 1;
+  transition: opacity .3s linear;
 }
