@@ -89,8 +89,6 @@
   color: var(--color-white);
 }
 
-.gallery-right {}
-
 .swiper-container {
   margin-right: inherit;
   max-width: 1150px;
@@ -100,8 +98,6 @@
 .gallery-right__swiper {
   padding-top: 86px;
 }
-
-.swiper-wrapper {}
 
 .gallery__slider-nav {
   position: absolute;
