@@ -40,16 +40,19 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
+
 }
 
 .enter__link {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
+
 }
 
 .enter__link>svg {
   margin-right: 12px;
+  transition: transform 0.2s ease;
 }
 
 .enter__link:hover .enter__link path {
