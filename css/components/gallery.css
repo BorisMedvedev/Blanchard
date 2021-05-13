@@ -68,6 +68,22 @@
   font-size: 14px;
 }
 
+.choices[data-type*=select-one]:after {
+  content: "";
+  display: block;
+  margin-right: 4px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  width: 9px;
+  height: 9px;
+  transform: rotate( -45deg);
+}
+.choices[data-type*=select-one].is-open:after {
+   border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+    transform: rotate( 135deg);
+}
+
 .gallery-left__title {
   color: var(--color-white);
 }

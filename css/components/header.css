@@ -78,7 +78,7 @@
 
 .menu__link:hover svg {
   transform: rotate(180deg);
-  transition: rotate 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .menu__link:active path {
@@ -193,20 +193,20 @@
   transition: color 0.2s ease;
 }
 
-.dropdown-menu__item {
+.nav-top-menu__item {
   position: relative;
   padding: 9px 0 12px 14px;
   display: block;
   transition: color 0.2s ease;
 }
 
-.dropdown-menu__link {
+.nav-top-menu__link {
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
 }
 
-.dropdown-menu__item:not(:last-child) {
+.nav-top-menu__item:not(:last-child) {
   margin-bottom: 20px;
 }
 
@@ -214,7 +214,7 @@
   padding: 40px;
 }
 
-.dropdown-menu__link::before {
+.nav-top-menu__link::before {
   content: "";
   display: block;
   position: absolute;
@@ -227,7 +227,7 @@
   height: 100%;
 }
 
-.dropdown-menu__item:active ::before {
+.nav-top-menu__item:active ::before {
   position: absolute;
   z-index: 1;
   background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4));
@@ -269,10 +269,10 @@
   transition: opacity 0s linear;
 }
 
-.dropdown {
+.nav-top-menu {
   display: none;
 }
 
-.dropdown--active {
+.nav-top--active {
   display: block;
 }

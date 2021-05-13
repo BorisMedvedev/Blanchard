@@ -25,37 +25,37 @@ body {
 	outline: none;
 }
 
-.dropdown-menu__style {
+.nav-top-menu__style {
 	color: var(--color-white);
 	transition: color 0.2s ease;
 }
 
-.dropdown-menu__item:hover {
+.nav-top-menu__item:hover {
 	outline: 2px solid #D1A9F0;
 	transition: outline-color 0.2s ease;
 }
 
-.dropdown-menu__item:hover .dropdown-menu__outl {
+.nav-top-menu__item:hover .nav-top-menu__outl {
 	color: #fff;
 	transition: color 0.2s ease;
 }
 
-.dropdown-menu__style:hover {
+.nav-top-menu__style:hover {
 	color: var(--color-hover);
 	transition: color 0.2s ease;
 }
 
-.dropdown-menu__style:active {
+.nav-top-menu__style:active {
 	color: var(--color-activ);
 	transition: color 0.2s ease;
 }
 
-.dropdown-menu__style:focus {
+.nav-top-menu__style:focus {
 	outline: 2px solid var(--color-activ);
 	transition: color 0.2s ease;
 }
 
-.dropdown-menu__outl:focus {
+.nav-top-menu__outl:focus {
 	outline: none;
 }
 .section__title {

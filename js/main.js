@@ -1,17 +1,17 @@
 const button = document.querySelectorAll('button');
-const drop = document.querySelectorAll('.dropdown')
+const drop = document.querySelectorAll('.nav-top')
 
 button.forEach(el => {
   el.addEventListener('click', (e) => {
-    drop.forEach(el => { el.classList.remove(('dropdown--active')) })
-    e.currentTarget.closest('li').querySelector('.dropdown').classList.toggle('dropdown--active');
+    drop.forEach(el => { el.classList.remove(('nav-top--active')) })
+    e.currentTarget.closest('li').querySelector('.nav-top').classList.toggle('nav-top--active');
   });
 });
 
 document.addEventListener('click', (e) => {
   console.log(e.target)
-  if (!e.target.classList.contains('dropdown') && !e.target.classList.contains('drop-btn')) {
-    drop.forEach(el => { el.classList.remove(('dropdown--active')) })
+  if (!e.target.classList.contains('nav-top') && !e.target.classList.contains('drop-btn')) {
+    drop.forEach(el => { el.classList.remove(('nav-top--active')) })
   }
 });
 
