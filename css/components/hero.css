@@ -84,6 +84,7 @@
 .hero__title {
   font-weight: 600;
   font-size: 72px;
+  margin-bottom: 18px;
   line-height: 83px;
   color: #fff;
   max-width: 36%;
@@ -97,7 +98,6 @@
   color: #fff;
   max-width: 37%;
   letter-spacing: 0.5px;
-  padding-top: 18px;
   margin-top: 0;
   padding-bottom: 94px;
 }

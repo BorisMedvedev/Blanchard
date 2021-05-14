@@ -2,16 +2,17 @@
 .about-us {
   background-color: #fff;
 }
-
+.about-us__container {
+  padding: 81px 0 67px 32px;
+}
 .about-us__title {
   display: inline-block;
-  padding-top: 80px;
   margin-bottom: 18px;
 }
 
 .about-us__text {
-  max-width: 67%;
+  max-width: 66%;
   font-size: 16px;
   line-height: 32px;
-  margin-bottom: 68px;
+
 }

@@ -18,15 +18,17 @@ document.addEventListener('click', (e) => {
 
 /* swiper=================================================*/
 
-var mySwiper = new Swiper('.swiper-1', {
-  speed: 300,
+const mySwiper = new Swiper('.swiper-1', {
   watchSlidesProgress: true,
   slidesPerView: 3,
   slidesPerColumn: 2,
-  slidesPerColumnFill: "row",
   slidesPerGroup: 6,
   spaceBetween: 50,
+  slidesPerColumnFill: 'row',
+  direction: 'horizontal',
   loop: true,
+  speed: 500,
+
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",
