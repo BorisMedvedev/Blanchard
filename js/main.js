@@ -17,38 +17,26 @@ document.addEventListener('click', (e) => {
 
 
 /* swiper=================================================*/
-let swiper = new Swiper(".myswiper", {
+var swiper = new Swiper(".myswiper", {
   slidesPerView: 3,
   slidesPerColumn: 2,
   spaceBetween: 50,
-  slidesPerColumnFill: 'row',
-  slidesPerGroup: 6,
+  loop: true,
   speed: 500,
-  // loop: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
 
-// const mySwiper = new Swiper('.swiper-1', {
-//   watchSlidesProgress: true,
-//   slidesPerView: 3,
-//   slidesPerColumn: 2,
-//   slidesPerGroup: 6,
-//   spaceBetween: 50,
-//   slidesPerColumnFill: 'row',
-//   direction: 'horizontal',
-//   loop: true,
-//   speed: 500,
 
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",
   },
   navigation: {
-    nextEl: '.swiper-button-prev',
-    prevEl: '.swiper-button-next',
-  }
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 });
 
 

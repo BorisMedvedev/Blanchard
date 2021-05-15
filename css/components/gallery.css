@@ -111,8 +111,24 @@
 }
 
 .swiper-container {
-  margin-right: inherit;
-  max-width: 1150px;
+  width: 1150px;
+  height: 834px;
+}
+.swiper-slide {
+  height: calc((100% - 50px) / 2);
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 .gallery__slider-nav {
