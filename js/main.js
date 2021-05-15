@@ -21,6 +21,9 @@ var swiper = new Swiper(".myswiper", {
   slidesPerView: 3,
   slidesPerColumn: 2,
   spaceBetween: 50,
+  slidesPerGroup: 2,
+  loop: true,
+  loopFillGroupWithBlank: true,
   loop: true,
   speed: 500,
   pagination: {
