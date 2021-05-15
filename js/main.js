@@ -17,7 +17,7 @@ document.addEventListener('click', (e) => {
 
 
 /* swiper=================================================*/
-let swiper = new Swiper(".mySwiper", {
+let swiper = new Swiper(".myswiper", {
   slidesPerView: 3,
   slidesPerColumn: 2,
   spaceBetween: 50,
