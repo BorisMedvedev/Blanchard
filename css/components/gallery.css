@@ -78,10 +78,11 @@
   height: 9px;
   transform: rotate( -45deg);
 }
+
 .choices[data-type*=select-one].is-open:after {
-   border-top: 1px solid #fff;
+  border-top: 1px solid #fff;
   border-right: 1px solid #fff;
-    transform: rotate( 135deg);
+  transform: rotate( 135deg);
 }
 
 .gallery-left__title {
@@ -105,15 +106,14 @@
   color: var(--color-white);
 }
 
-.swiper-container {
-  margin-right: inherit;
-  max-width: 1150px;
-  height: auto;
-}
-
 .gallery-right__swiper {
   padding-top: 86px;
 }
+
+.swiper-container {
+  margin-right: inherit;
+  max-width: 1150px;
+  }
 
 .gallery__slider-nav {
   position: absolute;

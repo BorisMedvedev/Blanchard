@@ -17,17 +17,27 @@ document.addEventListener('click', (e) => {
 
 
 /* swiper=================================================*/
-
-const mySwiper = new Swiper('.swiper-1', {
-  watchSlidesProgress: true,
+let swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   slidesPerColumn: 2,
-  slidesPerGroup: 6,
   spaceBetween: 50,
   slidesPerColumnFill: 'row',
-  direction: 'horizontal',
-  loop: true,
-  speed: 500,
+  // loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+// const mySwiper = new Swiper('.swiper-1', {
+//   watchSlidesProgress: true,
+//   slidesPerView: 3,
+//   slidesPerColumn: 2,
+//   slidesPerGroup: 6,
+//   spaceBetween: 50,
+//   slidesPerColumnFill: 'row',
+//   direction: 'horizontal',
+//   loop: true,
+//   speed: 500,
 
   pagination: {
     el: ".swiper-pagination",
