@@ -22,6 +22,8 @@ let swiper = new Swiper(".mySwiper", {
   slidesPerColumn: 2,
   spaceBetween: 50,
   slidesPerColumnFill: 'row',
+  slidesPerGroup: 6,
+  speed: 600,
   // loop: true,
   pagination: {
     el: ".swiper-pagination",
