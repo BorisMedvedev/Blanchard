@@ -23,7 +23,7 @@ let swiper = new Swiper(".myswiper", {
   spaceBetween: 50,
   slidesPerColumnFill: 'row',
   slidesPerGroup: 6,
-  speed: 600,
+  speed: 500,
   // loop: true,
   pagination: {
     el: ".swiper-pagination",
