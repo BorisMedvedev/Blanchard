@@ -1,9 +1,11 @@
 .catalog {
   padding: 80px 0 80px;
 }
+
 .catalog-navigation {
   margin-bottom: 40px;
 }
+
 .catalog-tabs {
   display: flex;
   align-items: center;
@@ -42,12 +44,15 @@
 .catalog-block__img2 {
   background-image: url(../../img/image6.svg);
 }
+
 .catalog-block__img4 {
   background-image: url(../../img/image7.svg);
 }
+
 .catalog-block__img5 {
   background-image: url(../../img/image8.svg);
 }
+
 .catalog-block__button:not(:last-child) {
   margin-right: 47px;
 }
