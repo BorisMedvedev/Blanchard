@@ -5,9 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blanchard</title>
+
   <link rel="stylesheet" href="libs/simplebar.css">
   <link rel="stylesheet" href="libs/swiper-bundle.min.css">
   <link rel="stylesheet" href="libs/choices.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -324,8 +329,8 @@
       </section>
       <section class="catalog">
         <div class="container catalog-container">
-          <div class="catalog-navigation">
-            <div class="catalog-tabs">
+          <div class="catalog-navigation catalog-navigation__nav">
+            <div class="catalog-tabs catalog-tabs__nav">
               <h2 class="catalog-tabs__title section__title">
                 Каталог
               </h2>
@@ -345,9 +350,9 @@
           </div>
           <div class="catalog-information">
             <div class="catalog-artists">
-              <img src="img/image3.jpg" alt="">
-              <h3>Доменико Гирландайо</h3>
-              <span>2 июня 1448 — 11 января 1494.</span>
+              <img class="catalog-artists__img" src="img/image3.jpg" alt="Доменико Гирландайо">
+              <h3 class="catalog-artists__title">Доменико Гирландайо</h3>
+              <span class="catalog-artists__discr">2 июня 1448 — 11 января 1494.</span>
               <p>Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую
                 продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где юный Микеланджело в
                 течение года овладевал профессиональными навыками. Автор фресковых циклов, в которых выпукло, со
@@ -355,7 +360,54 @@
                 граждане Флоренции в костюмах того времени).</p>
             </div>
             <div class="catalog-accordion">
-
+              <div id="accordion">
+                <h3>Section 1</h3>
+                <div>
+                  <p>
+                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                  </p>
+                </div>
+                <h3>Section 2</h3>
+                <div>
+                  <p>
+                    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                    suscipit faucibus urna.
+                  </p>
+                </div>
+                <h3>Section 3</h3>
+                <div>
+                  <p>
+                    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                  </p>
+                  <ul>
+                    <li>List item one</li>
+                    <li>List item two</li>
+                    <li>List item three</li>
+                  </ul>
+                </div>
+                <h3>Section 4</h3>
+                <div>
+                  <p>
+                    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                    mauris vel est.
+                  </p>
+                  <p>
+                    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

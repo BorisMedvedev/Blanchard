@@ -49,4 +49,9 @@ const choices = new Choices(element, {
 });
 
 
+/*Accordeon========================*/
 
+
+    $(function () {
+      $("#accordion").accordion();
+    });
