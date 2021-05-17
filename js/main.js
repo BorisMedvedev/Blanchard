@@ -55,3 +55,6 @@ const choices = new Choices(element, {
     $(function () {
       $("#accordion").accordion();
     });
+  //   $('#accordion').accordion({
+  //     collapsible: true
+  // });

@@ -57,9 +57,11 @@
 .catalog-block__button:not(:last-child) {
   margin-right: 47px;
 }
+
 .catalog-information {
   display: flex;
 }
+
 .catalog-artists {
   flex: 0 0 50%;
 }
