@@ -110,3 +110,7 @@
 .ui-accordion-header-icon {
   display: none;
 }
+.ui-accordion .ui-accordion-content {
+  padding: 0;
+
+}
