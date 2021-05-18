@@ -1,16 +1,16 @@
 
-.about-us {
+.about {
   background-color: #fff;
 }
-.about-us__container {
+.about__container {
   padding: 81px 0 67px 32px;
 }
-.about-us__title {
+.about__title {
   display: inline-block;
   margin-bottom: 18px;
 }
 
-.about-us__text {
+.about__text {
   max-width: 66%;
   font-size: 16px;
   line-height: 32px;
