@@ -112,19 +112,19 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
-  transition:  all 0.2s;
+  transition: color 0.2s ease;
 }
 
 .hero__link:hover {
   background: var(--color-akcent);
   border: 3px solid var(--color-border);
-  transition: background 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .hero__link:active {
   background: var(--color-activ);
   border: 3px solid var(--color-border);
-  transition: background 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .hero__link:focus {
