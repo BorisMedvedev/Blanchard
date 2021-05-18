@@ -63,8 +63,50 @@
   justify-content: space-between;
 }
 .catalog-accordion {
-  max-width: 50%;
+  width: 50%;
 }
 .catalog-artists {
   flex: 0 0 47%;
+}
+
+
+
+.ui-state-default {
+  border: none;
+  background: transparent;
+  font-weight: normal;
+  color: #333;
+}
+.ui-widget-content {
+  border: none;
+  border-bottom: 1px solid var(--color-akcent);
+  border-radius: 0;
+  background: #0000;
+  color: #333;
+}
+.accordion__title  {
+  border-bottom: 1px solid #cacaca;
+  }
+.accordion__title--border {
+  border-radius: 0;
+  border-top: 1px solid #cacaca;
+}
+.ui-state-active {
+  border-bottom: 1px solid var(--color-akcent);
+  border-radius: 0;
+}
+.accordeon__discr {
+  display: flex;
+}
+.ui-accordion .ui-accordion-header {
+
+  padding: 35px 0 40px 0;
+}
+.ui-accordion .ui-accordion-header {
+  padding: 35px 0 40px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+.ui-accordion-header-icon {
+  display: none;
 }
