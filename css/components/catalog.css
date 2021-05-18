@@ -60,8 +60,11 @@
 
 .catalog-information {
   display: flex;
+  justify-content: space-between;
 }
-
+.catalog-accordion {
+  max-width: 50%;
+}
 .catalog-artists {
   flex: 0 0 47%;
 }
