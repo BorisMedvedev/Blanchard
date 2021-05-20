@@ -63,6 +63,8 @@
   width: 46px;
   height: 46px;
   transition: filter .2s ease;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .catalog-block__button:hover {
@@ -207,16 +209,17 @@
 }
 
 .ui-accordion-content-active {
-  height: 100%;
+  height: auto;
 }
 
-.ui-accordion-content .ui-corner-bottom .ui-helper-reset .ui-widget-content .ui-accordion-content-active {
-  height: 1000px;
+.ui-accordion-content {
+  height: 300%;
 }
 
 .tab-content {
   display: none;
 }
+
 .tab-content-active {
-  display: flex;
+  display: block;
 }
