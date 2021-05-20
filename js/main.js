@@ -52,9 +52,29 @@ const choices = new Choices(element, {
 /*Accordeon========================*/
 
 
-    $(function () {
-      $("#accordion").accordion();
-    });
-  //   $('#accordion').accordion({
-  //     collapsible: true
-  // });
+$(function () {
+  $(".accordion1").accordion();
+});
+
+
+
+$(function () {
+  $(".accordion2").accordion();
+});
+
+/*tabs========================*/
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.tabs__btn').forEach(function (tabsBtn) {
+
+    tabsBtn.addEventListener('click', function (event) {
+      const path = event.currentTarget.dataset.path
+      console.log(path)
+      document.querySelectorAll('.tab-content').forEach(function (tabContent) {
+        tabContent.classList.remove('tab-content-active')
+      })
+      document.querySelector(`[data-target="${path}"]`).classList.add('tab-content-active')
+      console.log(tab-content-acive)
+    })
+  })
+})

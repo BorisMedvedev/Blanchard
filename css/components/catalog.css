@@ -111,7 +111,7 @@
   background-image: url(../../img/image8.svg);
 }
 
-.accordejn__list:not(:last-child) {
+.accordeon__list:not(:last-child) {
   margin-right: 72px;
 }
 
@@ -153,28 +153,29 @@
 }
 
 .accordeon__btn {
-  border-bottom: 2px solid #fff;
+  border-bottom: 1px solid #fff;
   transition: color .2s ease;
   transition: border 0.2s ease;
 }
 
 .accordeon__btn:hover {
   color: var(--color-akcent);
-  border-bottom: 2px solid var(--color-akcent);
+  border-bottom: 1px solid var(--color-akcent);
   transition: color .2s ease;
   transition: border 0.2s ease
 }
 
 .accordeon__btn:active {
   color: var(--color-activ);
-  border-bottom: 2px solid #fff;
+  border-bottom: 1px solid #fff;
   transition: color .2s ease;
 }
+
 .accordeon__btn:focus {
   color: var(--color-activ);
-  border: 2px solid var(--color-activ);
-
+  outline: 2px solid var(--color-activ);
 }
+
 .accordeon__btn:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -186,6 +187,7 @@
 
 .accordeon__discr {
   display: flex;
+  margin-left: 2px;
 }
 
 .ui-accordion .ui-accordion-header {
@@ -205,5 +207,16 @@
 }
 
 .ui-accordion-content-active {
-  height: auto;
+  height: 100%;
+}
+
+.ui-accordion-content .ui-corner-bottom .ui-helper-reset .ui-widget-content .ui-accordion-content-active {
+  height: 1000px;
+}
+
+.tab-content {
+  display: none;
+}
+.tab-content-active {
+  display: flex;
 }
