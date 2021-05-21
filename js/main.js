@@ -61,7 +61,9 @@ $(function () {
 $(function () {
   $(".accordion2").accordion();
 });
-
+$(function () {
+  $(".accordion3").accordion();
+});
 /*tabs========================*/
 
 document.addEventListener('DOMContentLoaded', function () {
