@@ -66,6 +66,7 @@
   transition: filter .2s ease;
   top: 7px;
   left: 7px;
+  position: relative;
 }
 
 .catalog-block__button:hover {
@@ -76,13 +77,13 @@
 .catalog-block__button:active::before {
   content: '';
   position: absolute;
-  width: 45px;
-  height: 45px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--color-akcent);
   border-radius: 50%;
-  box-shadow: 0 0 0 50px #0000, 0 0 0 2px var(--color-akcent);
-  top: 8px;
-  left: 8px;
-  filter: drop-shadow(0px 0px 20px rgba(157, 92, 208, 0.7));
 }
 
 .catalog-block__active {
@@ -92,9 +93,9 @@
   box-shadow: 0 0 0 50px #0000, 0 0 0 2px var(--color-akcent);
 }
 
-.catalog-block__disabled {
-  display: block;
-}
+/* .catalog-block__disabled {
+  box-shadow: none;
+} */
 
 .catalog-block__img1 {
   background-image: url(../../img/image4.svg);
