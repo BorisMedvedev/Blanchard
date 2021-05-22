@@ -70,8 +70,15 @@ document.addEventListener('DOMContentLoaded', function () {
       document.querySelectorAll('.tab-content').forEach(function (tabContent) {
         tabContent.classList.remove('tab-content-active')
       })
+      document.querySelectorAll('.catalog-block__disabled').forEach(function (tabContent) {
+        tabContent.classList.remove('catalog-block__active')
+      })
       document.querySelector(`[data-target="${path}"]`).classList.add('tab-content-active')
       console.log(tab - content - acive)
+      event.currentTarget(`[data-target="${path}"]`).classList.add('catalog-block__active')
+      console.log(tab - content - acive)
     })
+
   })
+
 })
