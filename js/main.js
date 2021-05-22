@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
       })
       document.querySelector(`[data-target="${path}"]`).classList.add('tab-content-active')
       // console.log(tab - content - acive)
+
       event.currentTarget(`[data-target="${path}"]`).classList.add('catalog-block__active')
       // console.log(tab - content - acive)
     })
