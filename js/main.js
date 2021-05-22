@@ -14,8 +14,6 @@ document.addEventListener('click', (e) => {
     drop.forEach(el => { el.classList.remove(('nav-top--active')) })
   }
 });
-
-
 /* swiper=================================================*/
 var swiper = new Swiper(".myswiper", {
   slidesPerView: 3,
@@ -28,8 +26,6 @@ var swiper = new Swiper(".myswiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-
-
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",
@@ -56,11 +52,10 @@ $(function () {
   $(".accordion1").accordion();
 });
 
-
-
 $(function () {
   $(".accordion2").accordion();
 });
+
 $(function () {
   $(".accordion3").accordion();
 });
@@ -76,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
         tabContent.classList.remove('tab-content-active')
       })
       document.querySelector(`[data-target="${path}"]`).classList.add('tab-content-active')
-      console.log(tab-content-acive)
+      console.log(tab - content - acive)
     })
   })
 })
