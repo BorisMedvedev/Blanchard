@@ -93,9 +93,9 @@
   box-shadow: 0 0 0 50px #0000, 0 0 0 2px var(--color-akcent);
 }
 
-/* .catalog-block__disabled {
+.catalog-block__disabled {
   box-shadow: none;
-} */
+}
 
 .catalog-block__img1 {
   background-image: url(../../img/image4.svg);
