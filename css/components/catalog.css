@@ -24,7 +24,7 @@
   justify-content: space-between;
   align-items: center;
   display: flex;
-  width: 434px;
+  width: 425px;
 }
 
 .catalog-navigation__discr {
@@ -84,10 +84,6 @@
   height: 50px;
   border: 2px solid var(--color-akcent);
   border-radius: 50%;
-}
-
-.catalog-block__disabled {
-  box-shadow: none;
 }
 
 .catalog-block__active {

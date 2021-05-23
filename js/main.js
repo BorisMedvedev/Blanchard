@@ -75,11 +75,15 @@ document.addEventListener('DOMContentLoaded', function () {
       })
       document.querySelector(`[data-target="${path}"]`).classList.add('tab-content-active')
       // console.log(tab - content - acive)
-
-      event.currentTarget(`[data-target="${path}"]`).classList.add('catalog-block__active')
-      // console.log(tab - content - acive)
+      // e.currentTarget.classList.add('tab-content-active')
     })
 
   })
 
 })
+document.querySelectorAll('.tabs__btn').forEach(el => {
+  el.addEventListener('click', (e) => {
+    document.querySelectorAll('.tabs__btn').forEach(el => { el.classList.remove('catalog-block__active') });
+    e.currentTarget.classList.add('catalog-block__active');
+  });
+});
