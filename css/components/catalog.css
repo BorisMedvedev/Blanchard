@@ -157,6 +157,7 @@
 
 .accordeon__btn {
   border-bottom: 1px solid #fff;
+  font-family: 'Open Sans' !important;
   transition: color .2s ease;
   transition: border 0.2s ease;
 }
